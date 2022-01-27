@@ -1,0 +1,16 @@
+type Dog {
+  id: ID!
+  breed: String!
+  color: String!
+}
+
+# Root
+type Query {
+  findAllDogs: String!
+  countAll: Long!
+}
+
+# Root
+type Mutation {
+  createDog(breed: String!, color: String!): String!
+}

@@ -1,0 +1,34 @@
+[2021-02-16 14:37:32 INFO]: install::setup-logging ended
+================
+[2021-02-16 14:37:32 INFO]: install::start-up started
+[2021-02-16 14:37:32 INFO]: install::start-up build image
+[2021-02-16 14:37:32 INFO]: install::decompress started
+[2021-02-16 14:37:32 INFO]: install::decompress changing directory to db
+[2021-02-16 14:37:32 INFO]: install::decompress decompress db/data_dump.tar.gz 
+[2021-02-16 14:37:32 INFO]: install::decompress removing data_dump.tar.gz 
+[2021-02-16 14:37:32 INFO]: install::decompress changing directory back
+[2021-02-16 14:37:32 INFO]: install::decompress ended
+================
+[2021-02-16 14:37:32 INFO]: install::decompress running image
+[2021-02-16 14:37:32 INFO]: install::decompress ended
+================
+[2021-02-16 14:43:43 INFO]: install::root-check started
+[2021-02-16 14:43:43 INFO]: install::root-check ended
+================
+[2021-02-16 14:43:43 INFO]: install::docker-check started
+[2021-02-16 14:43:43 INFO]: install::docker-check ended
+================
+[2021-02-16 14:43:43 INFO]: install::docker-compose-check started
+[2021-02-16 14:43:43 INFO]: install::docker-compose-check ended
+================
+[2021-02-16 14:43:43 INFO]: install::tear-down started
+[2021-02-16 14:43:43 INFO]: install::compress started
+[2021-02-16 14:43:43 INFO]: install::compress changing directory to db
+[2021-02-16 14:43:43 INFO]: install::compress compressing db/data_dump 
+[2021-02-16 14:43:43 INFO]: install::compress removing data_dump 
+[2021-02-16 14:43:43 INFO]: install::compress changing directory back
+[2021-02-16 14:43:43 INFO]: install::compress ended
+================
+[2021-02-16 14:43:43 INFO]: install::compress stoping services
+[2021-02-16 14:43:43 INFO]: install::compress ended
+================
